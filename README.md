@@ -32,28 +32,6 @@ This project implements a rate-limited notification service in Java. The service
    mvn test
    ```
 
-### Project Structure
-
-```
-modak-challenge/
-├── pom.xml
-└── src
-    ├── main
-    │   └── java
-    │       └── com
-    │           └── example
-    │               ├── NotificationService.java
-    │               ├── NotificationServiceImpl.java
-    │               ├── Gateway.java
-    │               ├── RateLimiter.java
-    │               └── RateLimitedNotificationService.java
-    └── test
-        └── java
-            └── com
-                └── example
-                    └── NotificationServiceImplTest.java
-```
-
 ### Customizing Rate Limiters
 
 You can customize the rate limiters by modifying the `defaultRateLimiters` method in `NotificationServiceImpl` 
